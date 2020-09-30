@@ -14,7 +14,8 @@ let package = Package(
         .target(
             name: "SBObjectiveCWrapper",
             dependencies: ["SwiftyBeaver"],
-            path: "Sources"
+            path: "Sources",
+            publicHeadersPath: "."
         )
     ]
 )
